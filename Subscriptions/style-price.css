@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #151515;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+.touchmagic {
+    display: flex;
+    justify-content: center;
+    margin-top: 159px;
+    margin-left: 808px;
+    margin-right: 807px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px ;
+    height: 57px;
+    background-color: #747474;
+    border-radius: 50px;
+    border-color: #C2C2C2;
+    border: 1px solid;
+    margin-top: 45px;
+    margin-left: 837px;
+    margin-right: 838px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121px;
+    height: 48px;
+    background-color: #151515 ;
+    border-radius: 50px;
+}
+.business {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121px;
+    height: 48px;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: white;
+}
+.buy-main {
+    display: flex;
+    margin-left: 770px;
+
+}
+.buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 395px;
+    height: 267px;
+    background-color: #747474;
+    border-radius: 20px;
+    margin-top: 22px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.money {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 40px;
+    gap: 18px;
+}
+.status{
+    display: flex;
+    margin-left: 43.5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.price-menu{
+    display: flex;
+    align-items: center;
+    margin-left: 35.5px;
+}
+.terms {
+    font-weight: 300;
+    font-size: 15px;
+    color: #CCCCCC;
+}
+.price {
+    font-size: 45px;
+    font-weight: 400;
+}
+.buy-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 16px;
+}
+.secure {
+    width: 180px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buy-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #0E808B;
+    border-radius: 25px;
+    width: 162px;
+    height: 61px;
+}

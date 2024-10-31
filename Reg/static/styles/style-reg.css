@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FBEBBD;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Висота контейнера - 100% від видимої висоти */
+}
+.border{
+    width: 300px;
+    height: 200px;
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.use {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+input{
+    border: 2px solid;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.5pxpx;
+    padding: 2px;
+}
+
+.forgot {
+    font-size: 12px;
+}
+
+.button {
+    margin-left: 200px;
+}
